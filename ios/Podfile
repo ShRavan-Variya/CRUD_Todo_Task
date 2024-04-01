@@ -12,6 +12,8 @@ target 'crud_todo_tasks' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-date-picker', :path => '../node_modules/react-native-date-picker'
+
   target 'crud_todo_tasksTests' do
     inherit! :complete
     # Pods for testing

@@ -11,7 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		16FA644DE1E1BFE885A04FF9 /* libPods-crud_todo_tasks-crud_todo_tasksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3CE64C5B91B057292A85AD /* libPods-crud_todo_tasks-crud_todo_tasksTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		BD620F9D95DC2DB7F3D27AAF /* libPods-crud_todo_tasks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3959C9D27488384F12D2AB35 /* libPods-crud_todo_tasks.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = crud_todo_tasks/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = crud_todo_tasks/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = crud_todo_tasks/main.m; sourceTree = "<group>"; };
+		3959C9D27488384F12D2AB35 /* libPods-crud_todo_tasks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crud_todo_tasks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2651B766AD8AAD218959F2 /* Pods-crud_todo_tasks-crud_todo_tasksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crud_todo_tasks-crud_todo_tasksTests.debug.xcconfig"; path = "Target Support Files/Pods-crud_todo_tasks-crud_todo_tasksTests/Pods-crud_todo_tasks-crud_todo_tasksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = crud_todo_tasks/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C08A17FD8731C8B757D18766 /* Pods-crud_todo_tasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crud_todo_tasks.release.xcconfig"; path = "Target Support Files/Pods-crud_todo_tasks/Pods-crud_todo_tasks.release.xcconfig"; sourceTree = "<group>"; };
+		CA117080CE681C116AB7B505 /* Pods-crud_todo_tasks-crud_todo_tasksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crud_todo_tasks-crud_todo_tasksTests.release.xcconfig"; path = "Target Support Files/Pods-crud_todo_tasks-crud_todo_tasksTests/Pods-crud_todo_tasks-crud_todo_tasksTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE3CE64C5B91B057292A85AD /* libPods-crud_todo_tasks-crud_todo_tasksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crud_todo_tasks-crud_todo_tasksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E554893F929AEA56FA8D9F /* Pods-crud_todo_tasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crud_todo_tasks.debug.xcconfig"; path = "Target Support Files/Pods-crud_todo_tasks/Pods-crud_todo_tasks.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FA644DE1E1BFE885A04FF9 /* libPods-crud_todo_tasks-crud_todo_tasksTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD620F9D95DC2DB7F3D27AAF /* libPods-crud_todo_tasks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +100,22 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				3959C9D27488384F12D2AB35 /* libPods-crud_todo_tasks.a */,
+				CE3CE64C5B91B057292A85AD /* libPods-crud_todo_tasks-crud_todo_tasksTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		808AFFD0E03BC4173E7B323A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4E554893F929AEA56FA8D9F /* Pods-crud_todo_tasks.debug.xcconfig */,
+				C08A17FD8731C8B757D18766 /* Pods-crud_todo_tasks.release.xcconfig */,
+				6D2651B766AD8AAD218959F2 /* Pods-crud_todo_tasks-crud_todo_tasksTests.debug.xcconfig */,
+				CA117080CE681C116AB7B505 /* Pods-crud_todo_tasks-crud_todo_tasksTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -109,6 +133,7 @@
 				00E356EF1AD99517003FC87E /* crud_todo_tasksTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				808AFFD0E03BC4173E7B323A /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -131,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "crud_todo_tasksTests" */;
 			buildPhases = (
+				CABAB76215307D250CFB9B5A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				10548FFBDEC746214E356C2F /* [CP] Embed Pods Frameworks */,
+				79648AD07D3317FF6C82B553 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,11 +177,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "crud_todo_tasks" */;
 			buildPhases = (
+				D86B9BEEAC07B91FCF0BE105 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				73446BC0B196B60F40CC0F02 /* [CP] Embed Pods Frameworks */,
+				E0DA3F4ACD8920ECD0DD1E57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +265,118 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+		10548FFBDEC746214E356C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks-crud_todo_tasksTests/Pods-crud_todo_tasks-crud_todo_tasksTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks-crud_todo_tasksTests/Pods-crud_todo_tasks-crud_todo_tasksTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks-crud_todo_tasksTests/Pods-crud_todo_tasks-crud_todo_tasksTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73446BC0B196B60F40CC0F02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks/Pods-crud_todo_tasks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks/Pods-crud_todo_tasks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks/Pods-crud_todo_tasks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79648AD07D3317FF6C82B553 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks-crud_todo_tasksTests/Pods-crud_todo_tasks-crud_todo_tasksTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks-crud_todo_tasksTests/Pods-crud_todo_tasks-crud_todo_tasksTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks-crud_todo_tasksTests/Pods-crud_todo_tasks-crud_todo_tasksTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CABAB76215307D250CFB9B5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crud_todo_tasks-crud_todo_tasksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D86B9BEEAC07B91FCF0BE105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crud_todo_tasks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0DA3F4ACD8920ECD0DD1E57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks/Pods-crud_todo_tasks-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks/Pods-crud_todo_tasks-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-crud_todo_tasks/Pods-crud_todo_tasks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,6 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2651B766AD8AAD218959F2 /* Pods-crud_todo_tasks-crud_todo_tasksTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -312,6 +456,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA117080CE681C116AB7B505 /* Pods-crud_todo_tasks-crud_todo_tasksTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -335,6 +480,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E554893F929AEA56FA8D9F /* Pods-crud_todo_tasks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -360,6 +506,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08A17FD8731C8B757D18766 /* Pods-crud_todo_tasks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -414,6 +561,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -479,6 +627,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
