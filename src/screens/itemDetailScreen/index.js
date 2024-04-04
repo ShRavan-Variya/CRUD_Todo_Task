@@ -1,12 +1,17 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, Image, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 const ic_splash = require('../../resources/ic_splash.png');
 const ic_details = require('../../resources/ic_details.png');
 
 const ItemDetailScreen = (props) => {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
+  const [itemId, setItemId] = useState()
+
+  useEffect(() => {
+    const {itemId} = props.route.params;
+    setItemId(itemId)
+  }, [])
+  
 
   return (
     <SafeAreaView style={styles.viewContainer}>
@@ -25,7 +30,10 @@ const ItemDetailScreen = (props) => {
           <Image source={ic_details} resizeMode={'cover'} style={styles.imageMain} />
           <View style={[styles.viewRow, {marginTop: 25}]}>
             <View style={{flex: 1, marginRight: 8}}>
-              <Button title={'DONE'} onPress={() => {}} />
+              <Button title={'DONE'} onPress={() => {
+                props.route.params.onGoBack(itemId);
+                props.navigation.goBack();
+              }} />
             </View>
             <View style={{flex: 1, marginLeft: 8}}>
               <Button title={'Cancel'} onPress={() => {props.navigation.goBack()}} />

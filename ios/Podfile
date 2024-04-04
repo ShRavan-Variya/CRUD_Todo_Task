@@ -12,6 +12,9 @@ target 'crud_todo_tasks' do
     :hermes_enabled => false
   )
 
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
   pod 'react-native-date-picker', :path => '../node_modules/react-native-date-picker'
 
   target 'crud_todo_tasksTests' do
